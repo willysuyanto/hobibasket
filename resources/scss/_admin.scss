@@ -1,0 +1,41 @@
+.admin {
+  &-header {
+    background-color: $white;
+    border-bottom: 2px solid $gray-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-dropdown {
+    height: 64px;
+    border-radius: 0;
+  }
+
+  &-sider {
+    width: 250px;
+    height: calc(100vh - 64px);
+  }
+
+  &-content {
+    padding: 14px;
+  }
+
+  .ant {
+    &-menu {
+      &-item {
+        display: flex;
+        align-items: center;
+
+        &-selected {
+          background-color: $primary;
+          color: $white;
+          border-radius: 4px;
+        }
+      }
+      &-title-content {
+        margin-top: 2px;
+      }
+    }
+  }
+}

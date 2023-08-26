@@ -1,0 +1,51 @@
+.footer {
+  width: 100%;
+  
+  &-wrapper {
+    max-width: 1200px;
+    margin: auto;
+
+    @media screen and (max-width: 1200px) {
+        padding: 0 8px;
+      }
+  }
+
+  &-content {
+    padding: 20px 0;
+    border-top: whitesmoke solid 1px;
+    border-bottom: whitesmoke solid 1px;
+    background-color: white;
+  }
+
+  .copyright {
+    padding: 14px;
+    text-align: center;
+  }
+
+  .link-container {
+    display: flex;
+    justify-content: flex-end;
+
+    a.ant-typography {
+        color: black;
+        font-family: 'Basketball';
+        font-size: 18px;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+  }
+
+  .link-container-mobile {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+
+    a.ant-typography {
+        color: black;
+        font-family: 'Basketball';
+        font-size: 18px;
+    }
+  }
+}

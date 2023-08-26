@@ -1,0 +1,23 @@
+.content {
+  &-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 24px;
+  }
+  &-header {
+    font-family: 'Basketball';
+  }
+
+  &-item {
+    padding: 12px;
+    border-bottom: 1px solid $gray-light;
+    
+    &-images {
+      border-radius: 8px;
+      border: 1px solid $gray-light;
+      object-fit: cover;
+      height: 120px;
+      width: 170px;
+    }
+}
+}

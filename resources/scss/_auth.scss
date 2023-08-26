@@ -1,0 +1,51 @@
+.login {
+  &-container {
+    min-height: 66vh;
+    background-size: cover;
+  }
+
+  &-image {
+    background: url("../assets/images/basketball-background-image.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-form {
+    background: white;
+    padding: 64px 128px;
+  }
+
+  &-form-container {
+    text-align: center;
+
+    .ant-input {
+      border-radius: 0;
+      background-color: #fafafa;
+      height: 36px;
+
+      &:hover {
+        border-color: $primary;
+      }
+
+      &:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 1px rgba(242, 121, 53, 0.2);
+      }
+    }
+
+    .link-button {
+      color: $primary;
+
+      &:hover {
+        color: $primary-dark;
+      }
+    }
+  }
+}
+
+.register {
+  &-form {
+    background: white;
+    padding: 32px 128px;
+  }
+}
